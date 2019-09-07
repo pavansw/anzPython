@@ -1,0 +1,5 @@
+test = open("/root/sample.txt",'r')
+var = test.read()
+print (var)
+print (type(var))
+test.close()

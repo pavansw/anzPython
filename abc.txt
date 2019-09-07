@@ -1,0 +1,10 @@
+
+  171  yum install mariadb-server
+  172  systemctl restart mariadb
+  173  systemctl enable mariadb
+  187  yum install pip
+  188  yum install python-pip
+  201  python3.6 -m pip install pymysql
+  206  python3.6 dbconnect1.py
+  207  vim dbconnect1.py
+
